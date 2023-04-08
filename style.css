@@ -174,7 +174,8 @@ a:hover {
 
 .footer-main ul {
     list-style-type: none;
-    color: #fff;
+    color: rgb(215, 213, 213);
+    cursor: pointer;
 }
 
 .footer-top {
@@ -192,6 +193,7 @@ a:hover {
 }
 
 .footer-ul {
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -199,6 +201,10 @@ a:hover {
     margin: 0;
     width: 20%;
 
+}
+
+.footer-ul li:hover {
+    color: #fff;
 }
 
 .buttom-footer-div {
